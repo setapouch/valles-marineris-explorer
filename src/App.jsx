@@ -18,6 +18,20 @@ function App() {
         </a>
       </div>
       <h1>Valles marineris exporer </h1>
+      <MarsInfo 
+        title="Valles Marineris" 
+        description="Největší kaňonový systém ve sluneční soustavě."
+      />
+
+      <MarsInfo 
+        title="Ius Chasma" 
+        description="Západní část Valles Marineris, dlouhá přes 900 km."
+      />
+
+      <MarsInfo 
+        title="Melas Chasma" 
+        description="Nejširší a nejhlubší část celého systému."
+      />
       <MarsInfo />
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
