@@ -37,7 +37,10 @@ function App() {
 
       <main className="max-w-4xl mx-auto px-4 py-8">
         {marsData.map((item) => (
-          <MarsInfo title={item.title} description={item.description} />
+          <MarsInfo
+            key={item.id} 
+            title={item.title} 
+            description={item.description} />
         ))}
       </main>
     </div>
