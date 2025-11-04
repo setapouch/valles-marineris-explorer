@@ -20,7 +20,11 @@ function App() {
           <MarsInfo
             key={item.id} 
             title={item.title} 
-            description={item.description} />
+            description={item.description} 
+            length={item.length}
+            width={item.width}
+            depth={item.depth}
+          />
         ))}
       </main>
     </div>
